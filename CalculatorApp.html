@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Calculator-App</title>
+</head>
+<body>
+<div class="App">
+    <div class="outSideBox">
+        <div class="headerContainer">
+            <div id=displayDetail>0</div>
+            <div id=displayResult>0</div>
+        </div>
+        <div class="button-group">
+            <button class="buttonNum"></button>
+            <button class="buttonNum"></button>
+            <button class="buttonNum"></button>
+            <button class="buttonNum name">簡易的計算機
+            </button>
+            <button class="buttonNum btn-num" data-num="1" value="num">1</button>
+            <button class="buttonNum btn-num" data-num="2">2</button>
+            <button class="buttonNum btn-num" data-num="3">3</button>
+
+            <button class="buttonStyleControl controlHover btn-con" data-math="+">+</button>
+
+            <button class="buttonNum btn-num" data-num="4">4</button>
+            <button class="buttonNum btn-num" data-num="5">5</button>
+            <button class="buttonNum btn-num" data-num="6">6</button>
+
+            <button class="buttonStyleControl controlHover btn-con" data-math="-">-</button>
+
+            <button class="buttonNum btn-num" data-num="7">7</button>
+            <button class="buttonNum btn-num" data-num="8">8</button>
+            <button class="buttonNum btn-num" data-num="9">9</button>
+            <button class="buttonStyleControl btn-con" data-math="*">*</button>
+
+            <button class="buttonStyleZero btn-num" data-num="0">0</button>
+            <button class="buttonStyleZero doubleZero" >00</button>
+            <button class="buttonNum decimal">.</button>
+            <button class="buttonStyleControl btn-con" data-math="/">/</button>
+
+            <button class="buttonStyleClear btn-ac">Clear</button>
+
+            <button class="buttonStyleControl numBack">←</button>
+            <button class="buttonStyleControl btn-con" data-math="=">=</button>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
